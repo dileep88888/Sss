@@ -1,0 +1,7 @@
+{
+  "name": "Eagle Stitch E-Commerce",
+  "description": "A modern, elegant e-commerce website for Eagle Stitch, a stage clothing and tailoring business. The site showcases premium stage outfits, allows customers to shop fabrics, and book stitching services.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

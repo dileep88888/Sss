@@ -1,0 +1,101 @@
+
+import { Product, Testimonial } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: 'Gilded Performance Jacket',
+    category: 'Men',
+    style: 'Modern',
+    price: '$450',
+    imageUrl: 'https://picsum.photos/seed/jacket1/400/500',
+    isFavorite: false,
+  },
+  {
+    id: 2,
+    name: 'Velvet Diva Gown',
+    category: 'Women',
+    style: 'Traditional',
+    price: '$780',
+    imageUrl: 'https://picsum.photos/seed/gown1/400/500',
+    isFavorite: true,
+  },
+  {
+    id: 3,
+    name: 'Satin Rockstar Trousers',
+    category: 'Men',
+    style: 'Fusion',
+    price: '$320',
+    imageUrl: 'https://picsum.photos/seed/trousers1/400/500',
+    isFavorite: false,
+  },
+  {
+    id: 4,
+    name: 'Junior Star Jumpsuit',
+    category: 'Kids',
+    style: 'Modern',
+    price: '$180',
+    imageUrl: 'https://picsum.photos/seed/jumpsuit1/400/500',
+    isFavorite: false,
+  },
+  {
+    id: 5,
+    name: 'Ethereal Silk Fabric',
+    category: 'Fabric',
+    style: 'Traditional',
+    price: '$95 / meter',
+    imageUrl: 'https://picsum.photos/seed/fabric1/400/500',
+    isFavorite: true,
+  },
+  {
+    id: 6,
+    name: 'Sequin Spotlight Dress',
+    category: 'Women',
+    style: 'Modern',
+    price: '$650',
+    imageUrl: 'https://picsum.photos/seed/dress2/400/500',
+    isFavorite: false,
+  },
+  {
+    id: 7,
+    name: 'Regal Brocade Fabric',
+    category: 'Fabric',
+    style: 'Traditional',
+    price: '$120 / meter',
+    imageUrl: 'https://picsum.photos/seed/fabric2/400/500',
+    isFavorite: false,
+  },
+    {
+    id: 8,
+    name: 'Future Pop Vest',
+    category: 'Men',
+    style: 'Modern',
+    price: '$280',
+    imageUrl: 'https://picsum.photos/seed/vest1/400/500',
+    isFavorite: false,
+  },
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: 1,
+    quote: "Eagle Stitch brought my vision to life. The craftsmanship is unparalleled, and I've never felt more confident on stage.",
+    author: 'Leo Crest',
+    role: 'Lead Singer, The Vanguards',
+    imageUrl: 'https://picsum.photos/seed/leo/100/100',
+  },
+  {
+    id: 2,
+    quote: "The urgent delivery option saved our tour. The outfits arrived on time and were absolutely stunning. A truly professional service.",
+    author: 'Seraphina',
+    role: 'Solo Artist',
+    imageUrl: 'https://picsum.photos/seed/seraphina/100/100',
+  },
+  {
+    id: 3,
+    quote: "From fabric selection to the final stitch, the process was seamless. The custom embroidery is exquisite. Highly recommend!",
+    author: 'Jax Riley',
+    role: 'Guitarist, Neon Bloom',
+    imageUrl: 'https://picsum.photos/seed/jax/100/100',
+  },
+];
